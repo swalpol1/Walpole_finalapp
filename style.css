@@ -1,0 +1,228 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+canvas {
+  display: block;
+}
+
+
+
+.div-block{
+    display:flex;
+    width:60vw;
+    height:100vh;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    
+    
+    
+}
+
+.heading{
+    position: static;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-left: 2vw;
+    font-size: 4vw;
+    font-family: 'Lobster', cursive;
+    -o-object-fit: fill;
+    object-fit: fill;
+    color:#540127;
+}
+
+.second_heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    margin-top: 1.2vh;
+    margin-bottom: 1.2vh;
+    font-size: 2vw;
+    color: #540127;
+    
+}
+
+.div-block-2{
+    position: static;
+    margin-right: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+.text{
+    margin-bottom: 1.2vh;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color:#540127;
+}
+
+.list{
+    overflow: hidden;
+    height: 95%;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    font-size: 1.2vw;
+}
+
+.list-item{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    padding-bottom: 4px;
+    color:#540127;
+}
+
+.div-block-3{
+    margin: 4vw;
+    overflow: visible;
+}
+
+
+
+.dg.main.taller-than-window .close-button {
+    border-top: 1px solid #540127;
+}
+
+.dg.main .close-button {
+    background-color: rgba(242,242,242,0.8);
+}
+ 
+.dg.main .close-button:hover {
+    background-color: rgba(242,242,242,0.8);
+}
+
+.dg {
+    text-shadow: none !important;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size:1vw;
+    color: #540127;
+    border: 1px solid;
+}
+
+.dg.main.a {
+    width:30vw !important;
+   
+}
+
+.dg.main .close-button {
+    background-color: rgba(242,242,242,0.8);
+    width:30vw !important;
+    border:1px solid;
+}
+
+.dg.a {
+    float: right;
+}
+
+.dg.main::-webkit-scrollbar {
+    background: #fafafa;
+}
+
+.dg.main::-webkit-scrollbar-thumb {
+    background: #F2A7C3;
+}
+ 
+.dg li:not(.folder) {
+    background-color: rgba(242,242,242,0.8);
+    border: 3px solid;
+    border-color:#540127;
+}
+ 
+.dg li.save-row .button {
+    text-shadow: none !important;
+}
+
+.dg li.title {
+    background-color: rgba(242,242,242,0.8) ;
+    border: 3px solid;
+}
+
+.dg .closed li.title {
+    background-color: rgba(242,242,242,0.8);
+}
+
+.dg .cr.function:hover,.dg .cr.boolean:hover {
+    background-color: rgba(242,242,242,0.8);
+}
+
+ 
+.dg .c input[type=text] {
+    background: #e9e9e9;
+    border:none;
+  
+}
+ 
+.dg .c input[type=text]:hover {
+    background: none;
+}
+ 
+.dg .c input[type=text]:focus {
+    background-color: rgba(242,242,242,0.8);
+}
+ 
+.dg .c .slider {
+    background-color: rgba(242,242,242,0.8);
+border: 2px solid;
+}
+
+.dg .c .slider:hover {
+    background-color: rgba(242,242,242,0.8);
+}
+
+.dg .c .slider-fg {
+    background: #540127;
+    max-width: 100%;
+    border-right: 2px solid;
+}
+
+.dg .c .slider:hover .slider-fg {
+    background:#540127 ;
+}
+
+.dg .cr.number input[type="text"] {
+    color: inherit;
+}
+
+.dg .c input[type="text"] {
+    background: none;
+    border: none;
+}
+
+.dg.main .close-button:hover {
+    background:#F2F2F2 ;
+}
+
+input:checked {
+    background:none !important;
+}
+
+.dg .cr.number {
+    border: none;
+}
+
+.dg .cr.function{
+    border:none;
+    text-align:center;
+}
+
+.dg .cr.function .property-name{
+    width:100%;
+    border:1px solid;
+}
+
+.dg .cr.boolean{
+    border:none;
+}
+
+.dg .cr.color{
+    border:none;
+}
+
+
+
+
+
