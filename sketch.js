@@ -23,7 +23,7 @@ function setup() {
   
   gui_setup.add(gui, 'colorBlue', 90, 112). step(1);
 
-  gui_setup.add(gui,"opacity", 50,150);
+  gui_setup.add(gui,"opacity", 50,200);
   
  
   
@@ -56,6 +56,6 @@ function Gui(){
   this.colorBlue = 112;
   this.colorGreen = 82;
   this.circleDiameter = 50;
-  this.opacity = 150;
+  this.opacity = 200;
    
 }
